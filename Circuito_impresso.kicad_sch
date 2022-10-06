@@ -1969,7 +1969,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 12ada827-2f7e-4eb8-838c-24a7f59b995b)
     (property "Reference" "R1" (id 0) (at 225.552 51.054 90))
-    (property "Value" "4.7 Ohms" (id 1) (at 225.552 53.594 90))
+    (property "Value" "3.3 Ohms" (id 1) (at 225.552 53.594 90))
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 225.552 59.182 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2141,12 +2141,12 @@
     (pin "9" (uuid 5435d076-1590-4b9d-8ea3-3fa1f6c15ff9))
   )
 
-  (symbol (lib_id "Regulator_Linear:L7805") (at 200.152 57.404 0) (unit 1)
+  (symbol (lib_id "Regulator_Linear:L7805") (at 200.152 57.404 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 922bbb59-2217-4cf9-8ac6-d8f99899dc99)
     (property "Reference" "U1" (id 0) (at 200.152 50.8 0))
     (property "Value" "L7805" (id 1) (at 200.152 53.34 0))
-    (property "Footprint" "AAAA:78XXS" (id 2) (at 200.787 61.214 0)
+    (property "Footprint" "AAAA:78XXS" (id 2) (at 199.517 61.214 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
     (property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" (id 3) (at 200.152 58.674 0)
@@ -2270,7 +2270,7 @@
       (reference "Q1") (unit 1) (value "TIP2955") (footprint "Package_TO_SOT_THT:TO-218-3_Vertical")
     )
     (path "/12ada827-2f7e-4eb8-838c-24a7f59b995b"
-      (reference "R1") (unit 1) (value "4.7 Ohms") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R1") (unit 1) (value "3.3 Ohms") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/922bbb59-2217-4cf9-8ac6-d8f99899dc99"
       (reference "U1") (unit 1) (value "L7805") (footprint "AAAA:78XXS")
