@@ -1742,7 +1742,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 69435ab1-ae8c-432a-a6e7-f9f0f899f1f6)
   )
-  (text "GPIO7" (at 87.376 38.1 90)
+  (text "GPIO8" (at 87.376 38.1 90)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6a21e292-2b49-48a6-928c-ab1e0d034dd8)
   )
@@ -1930,7 +1930,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 251.206 42.418 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 110cbc7e-6a43-407d-889a-e5a40468a9bd)
-    (property "Reference" "Jn1" (id 0) (at 248.158 42.4179 0)
+    (property "Reference" "JN4Dba06" (id 0) (at 248.158 42.4179 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x02" (id 1) (at 248.158 44.9579 0)
@@ -2260,11 +2260,11 @@
     (path "/51bfa4c1-eded-48aa-9c25-ab3330c31432"
       (reference "JIO-1") (unit 1) (value "Conn_01x08") (footprint "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_8-G_1x08_P5.00mm_Horizontal")
     )
+    (path "/110cbc7e-6a43-407d-889a-e5a40468a9bd"
+      (reference "JN4Dba06") (unit 1) (value "Conn_01x02") (footprint "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G_1x02_P5.00mm_Horizontal")
+    )
     (path "/c60f47fe-053a-48a8-86e3-26717f4843da"
       (reference "JV1") (unit 1) (value "Conn_01x02") (footprint "Connector_BarrelJack:BarrelJack_Horizontal")
-    )
-    (path "/110cbc7e-6a43-407d-889a-e5a40468a9bd"
-      (reference "Jn1") (unit 1) (value "Conn_01x02") (footprint "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G_1x02_P5.00mm_Horizontal")
     )
     (path "/ed0c9663-7c30-4dc9-9316-364c94c9c308"
       (reference "Q1") (unit 1) (value "TIP2955") (footprint "Package_TO_SOT_THT:TO-218-3_Vertical")
